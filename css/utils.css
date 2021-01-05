@@ -1,0 +1,16 @@
+.container {
+  width: 1400px;
+  margin: 0 40px;
+  /* border: 2px solid blue; */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.grid {
+}

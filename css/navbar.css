@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  background-color: rgb(255, 115, 0);
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  border-bottom: cyan solid 3px;
+}
+
+.navbar .container nav {
+  /* border: orangered solid 2px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.logo {
+  font-size: 2.5rem;
+}
+.navbar .container nav ul {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.navbar .container nav ul li {
+  margin-left: 18px;
+}
+.navbar .container nav ul li a:hover {
+  color: cyan;
+}

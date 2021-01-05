@@ -1,0 +1,29 @@
+.home {
+  /* background: red; */
+  height: 90vh;
+  /* border: 3px solid brown; */
+}
+.content {
+  background-color: orchid;
+  background-image: linear-gradient(blue, pink);
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content h1 {
+  font-size: 6rem;
+  font-family: "Hanalei Fill", cursive;
+  color: yellow;
+  letter-spacing: 8px;
+  text-shadow: tomato 5px 5px;
+  margin-bottom: 50px;
+}
+.content p {
+  font-size: 2.5rem;
+  font-family: "Hanalei Fill", cursive;
+  color: yellow;
+  letter-spacing: 3px;
+  text-shadow: tomato 5px 5px;
+}
+.content img {
+  width: 500px;
+}
